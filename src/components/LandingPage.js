@@ -113,6 +113,16 @@ class LandingPage extends Component {
 		/* Start of a part of Task 2 */
 
 		/* Code goes below here */
+		fetch(`https://api.github.com/users/${content.github_username}`)
+.then(response => response.json())
+.then(result => {
+	this.setState({ user: result });
+	document.title = `${result.name}'s Portfolio`;
+
+	fetch(`https://api.github.com/users/${github_username}/repos?${repo_endpoint_parameter}`)
+.then(response => response.json())
+.then(result => this.setState({ repos: result }));
+});
 		// Fetches user's profile.
 
 		/* End of a part of Task 2 */

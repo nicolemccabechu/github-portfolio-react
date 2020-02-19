@@ -1,5 +1,5 @@
 {
-	"github_username": "your_github_username",
+	"github_username": "nicolemccabechu",
 	"title": "Projects",
 	"repo_endpoint_parameter": "sort=pushed",
 	"number_of_repos_to_show": 10,
@@ -14,7 +14,7 @@
 		"Hack": 1
 	},
 	"number_of_languages_to_show": 4,
-	"email": "your_email@gmail.com",
+	"email": "nicolemccabechu@gmail.com",
 	"hire_msg": "Available for Hire",
 	"emojis": [
 		"https://github.githubassets.com/images/icons/emoji/unicode/1f947.png?v8",
